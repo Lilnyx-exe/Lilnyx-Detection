@@ -110,8 +110,8 @@ If you prefer to run or modify the Python GUI application directly:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/detect-cheat.git
-   cd detect-cheat
+   git clone https://github.com/xCruz-Exe/Lilnyx-Detection.git
+   cd Lilnyx-Detection
    ```
 
 2. **Install dependencies:**
