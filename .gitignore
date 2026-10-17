@@ -1,0 +1,53 @@
+# ==============================================================================
+# Git Ignore Rules for Lilnyx Detection Anti-Cheat & Forensic Suite
+# Thinking Team
+# ==============================================================================
+
+# Runtime Generated Forensic Reports (contain target machine paths & usernames)
+Lilnyx_Report_*.html
+Lilnyx_Report_*.txt
+CheatScan_Report_*.html
+CheatScan_Report_*.txt
+*_Report_*.html
+*_Report_*.txt
+
+# Quarantined Malware & Cheats (never commit active payloads)
+Lilnyx_Quarantine/*
+!Lilnyx_Quarantine/.gitkeep
+*.quarantined
+
+# Python Bytecode & Runtime Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python Virtual Environments & PyInstaller Outputs
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+*.spec
+
+# C/C++ Intermediate Objects & Debug Symbols
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store

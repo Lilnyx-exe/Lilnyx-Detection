@@ -1,0 +1,5 @@
+# Requirements for Lilnyx Detection Desktop Application
+# Thinking Team
+
+pywebview>=4.0.0
+psutil>=5.9.0
